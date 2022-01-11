@@ -1,0 +1,684 @@
+/* Remove Extra space & Font for whole webpage */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+
+/* For Margins */
+.mgb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.mgb-4 {
+    margin-bottom: 2.5rem !important;
+}
+
+.mgb-5 {
+    margin-bottom: 4rem !important;
+}
+
+.mgl-3 {
+    margin-left: 1.5rem !important;
+}
+
+.mgl-1 {
+    margin-left: 15px !important;
+}
+
+/* Global Padding */
+.pdl-5 {
+    padding-left: 5rem !important;
+}
+
+.common-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.subcontent-p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.vdashl {
+    position: relative;
+    border-left: 2px dashed #F87C58;
+    height: 85px;
+    width: 1px;
+    left: 50%;
+    margin-left: -3px;
+}
+
+
+/* Navigation Bar Designing */
+.nav-mod {
+    border-radius: 0;
+    background: #333647;
+    padding: 20px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-default .navbar-nav>.active>a, ul {
+    float: right !important;
+    color: #F87C58 !important;
+    background-color: #333647;
+}
+
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background: none;
+}
+
+.navbar-nav a {
+    margin-top: 10px !important;
+    color: #FFFFFF !important;
+    margin-right: 10px !important;
+}
+
+.navbar-nav a:hover {
+    color: #F87C58 !important;
+}
+
+.nav-btn {
+    margin-top: 10px !important;
+    font-size: 18px !important;
+    padding: 12px 22px !important;
+}
+
+/* Section 1 Designings */
+.sec1bg {
+    background: #333647;
+    padding: 50px 0;
+}
+
+.vert-cent {
+    padding-top: 3%;
+    padding-bottom: 100px;
+}
+
+.sec1-btn {
+    border-radius: 0 !important;
+    font-weight: 300;
+    pointer-events: none;
+}
+
+.btn-warning {
+    background-color: #F87C58;
+    border-color: #F87C58;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 12px 32px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.btn-warning:hover {
+    background-color: transparent;
+}
+
+.name-mod {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+}
+
+.btn-default {
+    background: transparent;
+    color: white;
+    font-size: 22px;
+    padding: 12px 32px;
+    margin-top: 20px;
+    border-radius: 4px;
+
+}
+
+.btn-default:hover {
+    background-color: #F87C58;
+    border-color: #F87C58;
+    color: #FFFFFF;
+}
+
+.about-img {
+    float: right;
+    width: 80%;
+    border-radius: 50%;
+    outline: 3px dashed white;
+    outline-offset: 10px !important;
+    background: #282A39 !important;
+}
+
+@media only screen and (max-width: 569px) {
+    html, body {
+        font-size: 16px !important;
+    }
+
+    .nav-mod {
+        padding: 5px;
+    }
+
+    .navbar-header img {
+        width: 174px !important;
+    }
+
+    .navbar-toggle {
+        margin-top: 18px;
+    }
+
+    .navbar-default .navbar-nav>.active>a, ul {
+        float: left !important;
+    }
+
+    .sec1bg, .sec2bg, .sec4bg, .sec8bg {
+        padding: 50px 0 !important;
+    }
+
+    .sec3bg, .sec5bg, .sec6bg, .sec7bg {
+        padding-bottom: 50px !important;
+    }
+
+    .sec1bg .row {
+        text-align: center;
+    }
+
+    .mgl-1 {
+        margin-left: 0 !important;
+    }
+
+    .mgl-3 {
+        margin-left: 5px !important;
+    }
+
+    .pdl-5 {
+        padding-left: 8px !important;
+    }
+
+    img {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+    .sec2bg .btn-default {
+        float: right;
+        padding-bottom: 18px;
+    }
+
+    .corner-cal {
+        bottom: 35px !important;
+        left: 100px !important;
+    }
+
+    .white-strip {
+        bottom: 85px !important;
+        left: 122px !important;
+    }
+
+    .white-strip2 {
+        bottom: 110px !important;
+        left: 155px !important;
+    }
+
+    .white-strip3 {
+        bottom: 135px !important;
+        left: 185px !important;
+    }
+
+    .white-strip4 {
+        bottom: 160px !important;
+        left: 215px !important;
+    }
+
+    .blacksqr {
+        margin-bottom: 25px;
+    }
+
+    .sec6img {
+        outline: 6px solid #F87C58;
+        outline-offset: -50px !important;
+    }
+    .sec6bg .outer-row img{
+        width: auto !important;
+        margin-bottom: 0 !important;
+    }
+
+    .sec7bg .row img {
+        margin-bottom: 0 !important;
+    }
+
+    .txt-sm-cent {
+        text-align: center;
+        
+    }
+    .item-sm-cent{
+        display: flex;
+        justify-content: center;
+    }
+    .inline-input {
+        display: block !important;
+        width: 100% !important;
+        background-color: #333647;
+        border-color: #333333;
+        color: white;
+        padding: 24px 12px;
+        margin-bottom: 25px !important;
+    }
+    select{
+        width: 100% !important;
+    }
+    .textareabg{
+        width: 100% !important;
+    }
+    .sec8bg .btn-warning{
+        width: 100% !important;
+    }
+}
+
+/* Section 2 Designings */
+.sec2bg {
+    background-color: #282A39;
+    padding: 100px 0;
+}
+
+.sec2img {
+    width: 95%;
+    filter: grayscale(100%);
+}
+
+.cal-box {
+    position: relative;
+}
+
+.corner-cal {
+    position: absolute;
+    background-color: #11121C;
+    color: white;
+    border-radius: 10px;
+    bottom: 55px;
+    left: -30px;
+    padding: 20px;
+    width: 150px;
+    height: 140px;
+}
+
+.white-strip {
+    position: relative;
+    background-color: white;
+    bottom: 95px;
+    left: -6px;
+    width: 12px;
+    height: 25px;
+}
+
+.white-strip2 {
+    position: relative;
+    background-color: white;
+    bottom: 120px;
+    left: 22px;
+    width: 12px;
+    height: 25px;
+}
+
+.white-strip3 {
+    position: relative;
+    background-color: white;
+    bottom: 145px;
+    left: 50px;
+    width: 12px;
+    height: 25px;
+}
+
+.white-strip4 {
+    position: relative;
+    background-color: white;
+    bottom: 170px;
+    left: 80px;
+    width: 12px;
+    height: 25px;
+}
+
+.progress {
+    height: 10px !important;
+}
+
+.progress-bar-warning {
+    background-color: #F87C58;
+    border-color: #F87C58;
+
+}
+
+/* Section 3 Designings */
+.sec3bg {
+    background-color: #333647;
+    padding-bottom: 100px;
+}
+
+.outer-row {
+    text-align: center;
+}
+
+.black-rec-active {
+    background-color: #F87C58;
+    color: white;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    height: 85px !important;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.black-rec {
+    background-color: #11121C;
+    color: #ffffff;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    height: 85px !important;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.black-rec:hover {
+    background-color: #F87C58;
+    color: white;
+}
+
+.sec3disp {
+    display: inline !important;
+}
+
+.circle-icon {
+    display: inline;
+    text-align: center;
+    background-color: #333647;
+    border-radius: 50%;
+    padding: 13px;
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.whitebg {
+    background-color: #FFFFFF;
+}
+
+.black-rec-active p, .black-rec p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.arrow-design {
+    position: relative;
+    top: 20px;
+    right: 20px;
+    float: right;
+    width: 20px !important;
+}
+
+/* Section 4 Designings */
+.sec4bg {
+    background-color: #282A3A;
+    padding: 100px 0;
+}
+
+.sec4img {
+    border-radius: 41px;
+    outline: 3px dashed #FFFFFF;
+    outline-offset: 8px;
+    background-color: #333647;
+    width: 80%;
+    margin-top: 35px;
+}
+
+.blacksqr {
+    background-color: #11121C;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px dashed #707070;
+    padding: 8px;
+}
+
+.orangesqr {
+    background-color: #F87C58;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #F87C58;
+    padding: 8px;
+}
+
+.blacksqr h2, .orangesqr h2 {
+    font-size: 32px;
+    font-family: 600;
+}
+
+.blacksqr p, .orangesqr p {
+    font-size: 18px;
+}
+
+/* Section 5 Designings */
+.sec5bg {
+    background-color: #333647;
+    padding-bottom: 100px;
+}
+
+.sec5bg .row .col-md-4 img {
+    border-radius: 5px;
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+.orangebg {
+    position: absolute;
+    background-color: #F87C58;
+    color: white;
+    text-align: center;
+    padding: 65px 25px;
+    border-radius: 5px;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    filter: opacity(95%);
+}
+
+.orangebg h3 {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+}
+
+.orangebg .mgb-4 p {
+    font-size: 15px !important;
+    font-weight: 300 !important;
+}
+
+.orangebg img {
+    margin-top: -15px !important;
+    width: 20px !important;
+}
+
+/* Section 6 Designings */
+.sec6bg {
+    background-color: #282A3A;
+    padding-bottom: 100px;
+}
+
+.sec6img {
+    width: 25%;
+    border-radius: 50%;
+    outline: 6px solid #F87C58;
+    outline-offset: -45px;
+}
+
+.sec6name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+}
+
+.sec6para {
+    font-size: 16px;
+}
+
+/* Section 7 Designings */
+.sec7bg {
+    background-color: #333647;
+    padding-bottom: 100px;
+}
+
+.sec7-black-rect {
+    background-color: #11121C;
+    color: white;
+    padding: 30px 25px;
+    border-radius: 0px 0px 5px 5px;
+    border: 1px dashed #707070;
+    box-shadow: 0px 15px 20px #00000014;
+    width: 100%;
+}
+
+.sec7-black-rect p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.sec7-black-rect h3 {
+    font-size: 22px !important;
+    font-weight: 300 !important;
+}
+
+.sec7-black-rect h4 {
+    display: inline;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #F87C58;
+}
+
+.sec7-black-rect img {
+    margin-left: 10px;
+    width: 30px !important;
+}
+
+/* Section 8 Designings */
+.sec8bg {
+    background-color: #11121C;
+    padding: 100px 0;
+}
+
+.contact-icon {
+    background-color: #333647;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px;
+    width: 50px !important;
+    height: 50px !important;
+    margin-top: 5px !important;
+}
+
+.sec8bg .row .col-md-4 .row .col-md-8 {
+    margin-left: 15px;
+}
+
+.sec8parag {
+    color: #6B6B6B;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.sec8h4 {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 25px !important;
+    font-weight: 300 !important;
+}
+
+.social-icons {
+    display: inline;
+    float: left;
+    margin-right: 20px;
+    width: 25px !important;
+}
+
+.inline-input {
+    display: inline;
+    width: 310px;
+    margin-right: 20px;
+    background-color: #333647;
+    border-color: #333333;
+    color: white;
+    padding: 24px 12px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: 0;
+    background: #333647;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    width: 46%;
+    height: 100%;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: #333333;
+    padding: 2px 10px;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 12px;
+    padding-right: 15px;
+}
+
+.select {
+    position: relative;
+    display: inline;
+    width: 15em;
+    height: 2em;
+    line-height: 2.4;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.textareabg {
+    display: inline !important;
+    background-color: #333647;
+    border-color: #333333;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 96%;
+    min-height: 75px;
+    outline: none;
+    resize: none;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #FFFFFF !important;
+}
+
+::placeholder {
+    /* Firefox */
+    color: #FFFFFF !important;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #FFFFFF !important;
+}
+
+.sec9bg {
+    background-color: #11121C !important;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px !important;
+    background-color: #11121C !important;
+    color: white !important;
+    border-top: 2px solid #333647;
+    font-weight: 300;
+}
