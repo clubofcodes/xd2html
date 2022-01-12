@@ -152,7 +152,20 @@ body {
     background: #282A39 !important;
 }
 
-@media only screen and (max-width: 569px) {
+@media only screen and (max-width:1199px) {
+
+    .inline-input{
+        width: 245px !important;
+    }
+    select{
+        width: 45% !important;
+    }
+    .textareabg{
+        width: 95% !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
     html, body {
         font-size: 16px !important;
     }
@@ -240,7 +253,8 @@ body {
         outline: 6px solid #F87C58;
         outline-offset: -50px !important;
     }
-    .sec6bg .outer-row img{
+
+    .sec6bg .outer-row img {
         width: auto !important;
         margin-bottom: 0 !important;
     }
@@ -251,12 +265,14 @@ body {
 
     .txt-sm-cent {
         text-align: center;
-        
+
     }
-    .item-sm-cent{
+
+    .item-sm-cent {
         display: flex;
         justify-content: center;
     }
+
     .inline-input {
         display: block !important;
         width: 100% !important;
@@ -266,13 +282,16 @@ body {
         padding: 24px 12px;
         margin-bottom: 25px !important;
     }
-    select{
+
+    select {
         width: 100% !important;
     }
-    .textareabg{
+
+    .textareabg {
         width: 100% !important;
     }
-    .sec8bg .btn-warning{
+
+    .sec8bg .btn-warning {
         width: 100% !important;
     }
 }
@@ -360,31 +379,15 @@ body {
     text-align: center;
 }
 
-.black-rec-active {
-    background-color: #F87C58;
-    color: white;
-    padding: 20px 15px;
-    margin-bottom: 30px;
-    border-radius: 2px;
-    height: 85px !important;
-    font-size: 18px;
-    font-weight: 300;
-}
-
 .black-rec {
     background-color: #11121C;
     color: #ffffff;
-    padding: 20px 15px;
+    padding: 30px 15px;
     margin-bottom: 30px;
     border-radius: 2px;
     height: 85px !important;
     font-size: 18px;
     font-weight: 300;
-}
-
-.black-rec:hover {
-    background-color: #F87C58;
-    color: white;
 }
 
 .sec3disp {
@@ -401,10 +404,6 @@ body {
     height: 45px !important;
 }
 
-.whitebg {
-    background-color: #FFFFFF;
-}
-
 .black-rec-active p, .black-rec p {
     display: inline;
     margin-left: 15px;
@@ -416,6 +415,23 @@ body {
     right: 20px;
     float: right;
     width: 20px !important;
+}
+.fa-long-arrow-alt-right{
+    float: right;
+    color: #F87C58;
+    margin-top: 5px;
+    padding-right: 15px;
+    transform: scale(1.7,1.2);
+}
+
+.changebg:hover, .changebg:hover .fa-long-arrow-alt-right{
+    background-color: #F87C58;
+    color: white !important;
+}
+.changebg:hover .whitebg{
+    background-color: white !important;
+    filter: saturate(100%);
+    color: #F87C58;
 }
 
 /* Section 4 Designings */
@@ -430,7 +446,7 @@ body {
     outline-offset: 8px;
     background-color: #333647;
     width: 80%;
-    margin-top: 35px;
+    margin-top: 55px;
 }
 
 .blacksqr {
@@ -442,13 +458,9 @@ body {
     padding: 8px;
 }
 
-.orangesqr {
+.blacksqr:hover {
     background-color: #F87C58;
     color: white;
-    text-align: center;
-    border-radius: 10px;
-    border: 1px solid #F87C58;
-    padding: 8px;
 }
 
 .blacksqr h2, .orangesqr h2 {
@@ -466,36 +478,51 @@ body {
     padding-bottom: 100px;
 }
 
+.sec5bg .row .col-md-4 .container {
+    position: relative;
+    width: 100%;
+}
+
 .sec5bg .row .col-md-4 img {
     border-radius: 5px;
     filter: grayscale(100%);
     width: 100%;
+    transition: .5s ease;
 }
 
-.orangebg {
+.orangebg-overlay {
     position: absolute;
+    transition: .5s ease;
+    width: 92%;
+    height: 100%;
+    padding-top: 60px;
     background-color: #F87C58;
-    color: white;
-    text-align: center;
-    padding: 65px 25px;
     border-radius: 5px;
-    bottom: 0;
-    left: 15px;
-    right: 15px;
+    color: white;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sec5bg .row .col-md-4 .container:hover .orangebg-overlay {
+    opacity: 1;
     filter: opacity(95%);
 }
 
-.orangebg h3 {
+.orangebg-overlay h3 {
     font-size: 22px !important;
     font-weight: 600 !important;
 }
 
-.orangebg .mgb-4 p {
+.orangebg-overlay .mgb-4 p {
     font-size: 15px !important;
     font-weight: 300 !important;
 }
 
-.orangebg img {
+.orangebg-overlay img {
     margin-top: -15px !important;
     width: 20px !important;
 }
