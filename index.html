@@ -15,8 +15,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <link href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" rel="stylesheet"/>
+    <link href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" rel="stylesheet" />
     <link href="assets/css/custom.css" rel="stylesheet" />
+    <link href="assets/css/mediaQuries.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -25,8 +26,8 @@
     <nav class="navbar-default nav-mod">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-toggle"
+                    aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -34,7 +35,7 @@
                 </button>
                 <img src="assets/img/Logo.png" alt="Company-logo" width="174px" height="71px" />
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="nav-toggle">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#" title="To know about us">About Me</a></li>
                     <li><a href="#" title="My Portfolio">Portfolio</a></li>
@@ -50,15 +51,15 @@
     <section class="sec1bg">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 vert-cent">
+                <div class="col-sm-6 vert-cent">
                     <button type="button" class="btn btn-warning sec1-btn mgb-3">Hello, I am</button>
                     <h2 class="name-mod mgb-4">I'm Jessica Thomas</h2>
                     <p class="mgb-4">Freelance UI/UX & Website Designer</p>
                     <button type="button" class="btn btn-warning">Download CV</button>
                     <button type="button" class="btn btn-default mgl-3">My Work</button>
                 </div>
-                <div class="col-md-6">
-                    <img class="about-img img-responsive" src="assets/img/about_girl.png" alt="Girl Pic">
+                <div class="col-sm-6">
+                    <img class="about-img" src="assets/img/about_girl.png" alt="Girl Pic">
                 </div>
             </div>
         </div>
@@ -67,8 +68,8 @@
     <section class="sec2bg">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 cal-box">
-                    <img class="sec2img img-responsive" src="assets/img/sec2img.png" alt="Working Man">
+                <div class="col-sm-6 cal-box">
+                    <img class="sec2img" src="assets/img/sec2img.png" alt="Working Man">
                     <div class="corner-cal">
                         <h3>06</h3>
                         <h4 class="">Years of Experience</h4>
@@ -88,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 pdl-5">
+                <div class="col-sm-6 pdl-5">
                     <h4 class="common-heading mgb-5">Read About My Life Struggle Story!</h4>
                     <p class="subcontent-p mgb-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem totam
                         rem aperiam, eaque ipsa quae
@@ -117,8 +118,10 @@
                             aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
                         </div>
                     </div>
-                    <button type="button" class="btn btn-warning">Hire Me!</button>
-                    <button type="button" class="btn btn-default mgl-3">About Me</button>
+                    <div class="btn-cent">
+                        <button type="button" class="btn btn-warning">Hire Me!</button>
+                        <button type="button" class="btn btn-default mgl-3 btn-flex">About Me</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -134,47 +137,54 @@
                     illo inventore veritatis et is the quasi architecto beatae vitae dicta sunt explicabo.</p>
             </div>
             <div class="row mgb-3">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="black-rec changebg mgb-4">
                         <div class="sec3disp">
                             <i class="circle-icon whitebg fab fa-wordpress-simple"></i>
                         </div>
                         <p>Wordpress</p>
-                        <i class="fa fa-long-arrow-alt-right "></i> 
-                    </div>
-                    <div class="black-rec changebg">
-                        <div class="sec3disp">
-                            <i class="circle-icon whitebg fab fa-css3"></i>
-                        </div>
-                        <p>CSS</p>
-                        <i class="fa fa-long-arrow-alt-right "></i> 
+                        <i class="fa fa-long-arrow-alt-right "></i>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="black-rec changebg mgb-4">
                         <div class="sec3disp">
                             <i class="circle-icon whitebg fas fa-code"></i>
                         </div>
                         <p>HTML</p>
-                        <i class="fa fa-long-arrow-alt-right "></i> 
-                    </div>
-                    <div class="black-rec changebg">
-                        <div class="sec3disp">
-                            <i class="circle-icon whitebg fas fa-code"></i>
-                        </div>
-                        <p>PHP</p>
-                        <i class="fa fa-long-arrow-alt-right "></i> 
+                        <i class="fa fa-long-arrow-alt-right "></i>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="black-rec changebg mgb-4">
                         <div class="sec3disp">
                             <i class="circle-icon whitebg fas fa-laptop-code"></i>
                         </div>
                         <p>Web Developement</p>
-                        <i class="fa fa-long-arrow-alt-right "></i> 
+                        <i class="fa fa-long-arrow-alt-right "></i>
                     </div>
-                    <div class="black-rec changebg">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="black-rec changebg mgb-4">
+                        <div class="sec3disp">
+                            <i class="circle-icon whitebg fab fa-css3"></i>
+                        </div>
+                        <p>CSS</p>
+                        <i class="fa fa-long-arrow-alt-right "></i>
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="black-rec changebg mgb-4">
+                        <div class="sec3disp">
+                            <i class="circle-icon whitebg fas fa-code"></i>
+                        </div>
+                        <p>PHP</p>
+                        <i class="fa fa-long-arrow-alt-right "></i>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="black-rec changebg mgb-4">
                         <div class="sec3disp">
                             <i class="circle-icon whitebg fas fa-puzzle-piece"></i>
                         </div>
@@ -192,32 +202,40 @@
     <section class="sec4bg">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <img class="sec4img" src="assets/img/sec4img.png" alt="">
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <h3 class="common-heading">More Reasons to Choose Me</h3>
                     <p class="subcontent-p mgb-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem totam
                         rem aperiam, eaque ipsa quae ab illo inventore veritatis et is the quasi architecto beatae vitae
                         dicta sunt explicabo.</p>
                     <div class="row mgb-4">
-                        <div class="col-md-4 blacksqr mgl-1">
-                            <h2>50+</h2>
-                            <p>Clients</p>
+                        <div class="col-xs-6 col-md-6">
+                            <div class="blacksqr">
+                                <h2>50+</h2>
+                                <p>Clients</p>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-md-offset-2 blacksqr">
-                            <h2>68</h2>
-                            <p>Projects</p>
+                        <div class="col-xs-6 col-md-6">
+                            <div class="blacksqr">
+                                <h2>68</h2>
+                                <p>Projects</p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 blacksqr mgl-1">
-                            <h2>30</h2>
-                            <p>Awards</p>
+                        <div class="col-xs-6 col-md-6">
+                            <div class="blacksqr">
+                                <h2>30</h2>
+                                <p>Awards</p>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-md-offset-2 blacksqr">
-                            <h2>06 </h2>
-                            <p>Years Experience</p>
+                        <div class="col-xs-6 col-md-6">
+                            <div class="blacksqr">
+                                <h2>06 </h2>
+                                <p>Years Experience</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -234,10 +252,10 @@
                     aperiam, eaque ipsa quae ab
                     illo inventore veritatis et is the quasi architecto beatae vitae dicta sunt explicabo.</p>
             </div>
-            <div class="row mgb-4">
-                <div class="col-md-4">
-                    <div class="container">
-                        <img class="img-responsive" src="assets/img/sec5-1img.png" alt="" />
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mgb-4">
+                    <div class="bwcard">
+                        <img src="assets/img/sec5-1img.png" alt="" />
                         <div class="orangebg-overlay">
                             <h3>Application Development</h3>
                             <p class="mgb-4">HTML, CSS, jQuery</p>
@@ -248,9 +266,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="container">
-                        <img class="img-responsive" src="assets/img/sec5-2img.png" alt="" />
+                <div class="col-md-4 col-sm-6 mgb-4">
+                    <div class="bwcard">
+                        <img src="assets/img/sec5-2img.png" alt="" />
                         <div class="orangebg-overlay">
                             <h3>Application Development</h3>
                             <p class="mgb-4">HTML, CSS, jQuery</p>
@@ -261,9 +279,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="container">
-                        <img class="img-responsive" src="assets/img/sec5-3img.png" alt="" />
+                <div class="col-md-4 col-sm-6 mgb-4">
+                    <div class="bwcard">
+                        <img src="assets/img/sec5-3img.png" alt="" />
                         <div class="orangebg-overlay">
                             <h3>Application Development</h3>
                             <p class="mgb-4">HTML, CSS, jQuery</p>
@@ -274,11 +292,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row mgb-4">
-                <div class="col-md-4">
-                    <div class="container">
-                        <img class="img-responsive" src="assets/img/sec5-4img.png" alt="" />
+                <div class="col-md-4 col-sm-6 mgb-4">
+                    <div class="bwcard">
+                        <img src="assets/img/sec5-4img.png" alt="" />
                         <div class="orangebg-overlay">
                             <h3>Application Development</h3>
                             <p class="mgb-4">HTML, CSS, jQuery</p>
@@ -289,9 +305,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 cal-box">
-                    <div class="container">
-                        <img class="img-responsive" src="assets/img/sec5-5img.png" alt="" />
+                <div class="col-md-4 col-sm-6 mgb-4">
+                    <div class="bwcard">
+                        <img src="assets/img/sec5-5img.png" alt="" />
                         <div class="orangebg-overlay">
                             <h3>Application Development</h3>
                             <p class="mgb-4">HTML, CSS, jQuery</p>
@@ -302,9 +318,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="container">
-                        <img class="img-responsive" src="assets/img/sec5-6img.png" alt="" />
+                <div class="col-md-4 col-sm-6 mgb-4">
+                    <div class="bwcard">
+                        <img src="assets/img/sec5-6img.png" alt="" />
                         <div class="orangebg-overlay">
                             <h3>Application Development</h3>
                             <p class="mgb-4">HTML, CSS, jQuery</p>
@@ -332,7 +348,7 @@
                     ipsa quae ab illo inventore veritatis et is the quasi architecto beatae vitae dicta sunt explicabo.
                 </p>
                 <img class="sec6img mgb-3" src="assets/img/sec6img.png" alt="" />
-                <div>
+                <div class="inner">
                     <img src="assets/img/left-quote.png" alt="" />
                     <h3 class="sec6name">John Doe</h3>
                     <p class="mgb-4 sec6para">CEO Company</p>
@@ -404,43 +420,42 @@
 
     <section class="sec8bg">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 txt-sm-cent">
+            <div class="row txt-sm-cent">
+                <div class="col-sm-4">
                     <h2 class="common-heading mgb-3">Contact Us</h2>
                     <p class="mgb-5">Let's make something new, different and more meaningful or make thing more visual
                         or conceptual?</p>
-                    <div class="row mgb-4 txt-sm-cent">
-                        <div class="col-md-2">
+                    <div class="row mgb-4">
+                        <div class="col-sm-2 col-md-2">
                             <i class="contact-icon fas fa-phone-volume"></i>
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-sm-8 col-md-8">
                             <p class="sec8parag">Call Me</p>
                             <h4 class="sec8h4">+123 456 7890</h4>
                         </div>
                     </div>
 
-                    <div class="row mgb-4 txt-sm-cent">
-                        <div class="col-md-2">
+                    <div class="row mgb-4">
+                        <div class="col-sm-2 col-md-2">
                             <i class="contact-icon far fa-envelope"></i>
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-sm-8 col-md-8">
                             <p class="sec8parag">Email</p>
                             <h4 class="sec8h4">info@coder.com</h4>
                         </div>
                     </div>
 
-                    <div class="row mgb-5 txt-sm-cent">
-                        <div class="col-md-2">
+                    <div class="row mgb-4">
+                        <div class="col-sm-2 col-md-2">
                             <i class="contact-icon fas fa-map-marker-alt"></i>
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-sm-8 col-md-8">
                             <p class="sec8parag">Address</p>
                             <h4 class="sec8h4">27 Division St, New York, NY 10002, USA</h4>
                         </div>
                     </div>
-                    <div class="mgb-4 txt-sm-cent">
+                    <div class="mgb-4">
                         Find Me on
-
                     </div>
                     <div class="mgb-5 item-sm-cent">
                         <img class="social-icons" src="assets/img/behance.png" alt="Snow" height="24px" />
@@ -449,25 +464,38 @@
                         <img class="social-icons" src="assets/img/linked in.png" alt="Mountains" />
                         <img class="social-icons" src="assets/img/pinterest.png" alt="Mountains" />
                     </div>
-
                 </div>
-                <div class="col-md-8 pdl-5 txt-sm-cent">
+                <div class="col-sm-8 pdl-5">
                     <h2 class="common-heading mgb-4">Drop a Line</h2>
                     <form method="post" enctype="multipart/form-data">
-                        <div class="form-group mgb-4">
-                            <input type="text" class="form-control inline-input" id="name" placeholder="Name" />
-                            <input type="email" class="form-control inline-input" id="emailid" placeholder="Email" />
-                        </div>
-                        <div class="form-group mgb-4">
-                            <input type="number" class="form-control inline-input" id="number" placeholder="Phone">
-                            <div class="select">
-                                <select name="slct" id="slct">
-                                    <option value="0">Budget</option>
-                                    <option value="1">20000</option>
-                                    <option value="2">50000</option>
-                                    <option value="3">30000</option>
-                                    <option value="4">10000</option>
-                                </select>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group mgb-4">
+                                    <input type="text" class="form-control inline-input" id="name" placeholder="Name" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group mgb-4">
+                                    <input type="email" class="form-control inline-input" id="emailid"
+                                        placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group mgb-4">
+                                    <input type="number" class="form-control inline-input" id="number"
+                                        placeholder="Phone">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="select">
+                                    <select name="slct" id="slct">
+                                        <option value="0">Budget</option>
+                                        <option value="1">20000</option>
+                                        <option value="2">50000</option>
+                                        <option value="3">30000</option>
+                                        <option value="4">10000</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class="form-group mgb-4">
