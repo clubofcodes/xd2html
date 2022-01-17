@@ -24,6 +24,33 @@
 
 }
 
+@media only screen and (max-width:1048px) {
+    .corner-cal {
+        bottom: 35px !important;
+        left: -10px !important;
+    }
+
+    .white-strip {
+        bottom: 75px !important;
+        left: 8px !important;
+    }
+
+    .white-strip2 {
+        bottom: 100px !important;
+        left: 40px !important;
+    }
+
+    .white-strip3 {
+        bottom: 125px !important;
+        left: 72px !important;
+    }
+
+    .white-strip4 {
+        bottom: 150px !important;
+        left: 104px !important
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .row {
         margin-right: -15px;
@@ -31,7 +58,7 @@
     }
 
     .nav-mod {
-        padding: 5px;
+        padding: 10px;
     }
 
     .navbar-header {
@@ -151,7 +178,7 @@
         margin-bottom: 25px;
     }
 
-    .blacksqr p, .orangesqr p {
+    .blacksqr p {
         font-size: 16px;
     }
 
@@ -193,10 +220,13 @@
     }
 }
 
-
 @media only screen and (max-width: 767px) {
     .row {
         margin: 0 !important;
+    }
+
+    .pdl-5 {
+        padding-left: 15px !important;
     }
 
     .mgb-4 {
@@ -257,6 +287,10 @@
         left: 390px !important;
     }
 
+    .blacksqr {
+        margin-bottom: 0 !important;
+    }
+
     .sec8bg .btn-warning {
         width: 100% !important;
     }
@@ -275,6 +309,11 @@
 
     .sec8bg .row .col-sm-4 .row .col-md-8 {
         margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .sec8bg .col-sm-4 .row .col-sm-2 {
+        padding-left: 0 !important;
     }
 }
 
@@ -314,7 +353,7 @@
     }
 
     .black-rec {
-        padding: 35px 10px !important;
+        padding: 30px 10px !important;
         font-size: 14px !important;
     }
 
@@ -326,14 +365,38 @@
         margin-top: 2px !important;
     }
 
-    .blacksqr h2, .orangesqr h2 {
-        font-size: 22px;
+    .blacksqr h2 {
+        font-size: 30px !important;
     }
 
-    .blacksqr p, .orangesqr p {
-        font-size: 12px;
+    .blacksqr p {
+        font-size: 15px !important;
+    }
+    .item-sm-cent {
+        padding-left: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 421px) {
+    .sec4bg .row .col-sm-6 {
+        padding: 0 !important;
     }
 
+    .sec4bg .row .col-sm-6 .row .col-md-6 {
+        padding: 0 5px !important;
+    }
+
+    .col-pad {
+        padding: 0 15px !important;
+    }
+
+    .blacksqr {
+        padding: 5px !important;
+    }
+
+    .blacksqr p {
+        font-size: 14px !important;
+    }
 }
 
 @media only screen and (max-width: 322px) {
@@ -442,8 +505,8 @@
         padding: 5px !important;
     }
 
-    .blacksqr p, .orangesqr p {
-        font-size: 10px;
+    .blacksqr p {
+        font-size: 10px !important;
     }
 
     .bwcard {
@@ -457,7 +520,7 @@
 
     .sec6img {
         width: 60% !important;
-        outline-offset: -26px
+        outline-offset: -28px !important;
     }
 
     .sec7bg .row .col-md-4 {
